@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- link stylesheet bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- styiling manual -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kelompok 2</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#pengertian">Pengertian</a>
+                    <a class="nav-link" href="#manfaat">Manfaat</a>
+                    <a class="nav-link" href="#jenis">Jenis</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+                <span class="navbar-text">
+                    Tema : Portfolio
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h5>Apa Sih Sebenarnya Portfolio itu?</h5>
+            <h1>Gini Wak</h1>
+            <p>Portfolio itu bisa dibilang sebuah kumpulan karya atau proyek yang dibuat oleh seseorang ataupun perusahaan</p>
+            <a href="#" class="button">Pengertian Lengkapnya</a>
+        </div>
+
+        <div class="home-img container">
+            <img src="resource/laptop.png" alt="laptop">
+        </div>
+    </section>
+
+    <section class="pengertian d-flex justify-content-center" id="pengertian">
+        <div class="pengertian-text ">
+            <h1>Pengertian Portfolio</h1>
+            <p>portfolio adalah kumpulan karya atau proyek yang dibuat oleh seseorang atau sebuah perusahaan untuk menunjukkan kemampuan, prestasi, dan pengalaman mereka dalam bidang tertentu. Portfolio dapat berupa koleksi gambar, desain, tulisan, atau contoh pekerjaan lainnya yang dapat memberikan gambaran tentang kemampuan dan keahlian seseorang atau perusahaan kepada orang lain, seperti calon klien atau perekrut.</p>
+            <a href="#" class="button">Contoh Portfolio</a>
+        </div>
+    </section>
+
+    <section class="manfaat" id="manfaat">
+        <div class="container text-center header">
+            <h2>Manfaat Dari Portfolio</h2>
+        </div>
+
+        <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <div class="container text-center">
+                    <i class='bx bxs-file-doc' id="menu-icons"></i>
+                </div>
+            
+                <div class="card-body">
+                    <h5 class="card-title">Pertama</h5>
+                    <p class="card-text">Sebagai dokumentasi terhadap berbagai pekerjaan yang sudah pernah dilakukan.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="container text-center">
+                    <i class='bx bxs-briefcase' id="menu-icons"></i>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title">Kedua</h5>
+                    <p class="card-text">Sebagai sumber informasi pengalaman kerja dengan hasil karya terbaik ataupun prestasi terbaik yang sudah pernah dicapai.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="container text-center">
+                    <i class='bx bxs-gift' id="menu-icons"></i>
+                </div>
+            
+                <div class="card-body">
+                    <h5 class="card-title">Ketiga</h5>
+                    <p class="card-text">Sebagai salah satu acuan dari prestasi ataupun pekerjaan yang telah dilakukan oleh seseorang.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- jenis -->
+        <div class="container text-center header" id="jenis">
+            <h2 style="padding-top: 2rem;">Jenis Portfolio</h2>
+        </div>
+        <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <img src="resource/desain-grafis.png" class="card-img-top img">
+            
+                <div class="card-body">
+                    <h5 class="card-title">Pertama</h5>
+                    <p class="card-text">Portfolio Desain Grafis</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="resource/game-development.png" class="card-img-top img">
+            
+                <div class="card-body">
+                    <h5 class="card-title">Kedua</h5>
+                    <p class="card-text">Portfolio Game Development</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="resource/web-development.png" class="card-img-top img">
+        
+                <div class="card-body">
+                    <h5 class="card-title">Ketiga</h5>
+                    <p class="card-text">Portfolio Web Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us!</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="button">
+            </form>
+    </section>
+
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="contact-us">
+                <h4>CONTACT US</h4>
+                <a href="#">akbarxxxxxxxxx@gmail.com</a>
+                <a href="#">+62838-03xx-xxxx</a>
+            </div>
+
+            <div class="medsos">
+                <h4>FOLLOW US</h4>
+                <div class="logo-medsos">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer">
+            <p>Copyright &copy; 2024 by Akbar Riansyah | All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function() { 
+            var scroll = $(window).scrollTop();
+            if (scroll > 50) {
+                $(".navbar").addClass("navbar-solid");
+            } else {
+                $(".navbar").removeClass("navbar-solid");
+            }t
+            });
+        });
+    </script>
+</body>
+</html>
