@@ -232,6 +232,7 @@ span {
 }
 
 .input-box input, form textarea {
+    color: var(--textcolor);
     transition: .5s ease;
 }
 
