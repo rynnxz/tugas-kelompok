@@ -151,6 +151,10 @@
             </form>
     </section>
 
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+
     <footer class="footer">
         <div class="top-footer">
             <div class="contact-us">
@@ -192,6 +196,13 @@
     <script>
         document.addEventListener('contextmenu', function (e) {
             e.preventDefault();
+        });
+    </script>
+
+    <script>
+        window.addEventListener("load", function() {
+            var loadingScreen = document.getElementById("loading-screen");
+            loadingScreen.style.display = "none";
         });
     </script>
 </body>
